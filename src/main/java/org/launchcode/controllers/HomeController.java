@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * Created by LaunchCode
  */
 @Controller
-public class HomeController {
+public class HomeController {                                         //handles all requests to and from root route ('/')
 
-    @RequestMapping(value = "")
-    public String index() {
+    @RequestMapping(value = "")                                       //root route ('/')
+    public String index() {                                                                                             //method that returns 'index' view
         return "index";
     }
 

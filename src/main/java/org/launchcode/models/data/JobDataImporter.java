@@ -18,7 +18,7 @@ import java.util.List;
 /**
  * Created by LaunchCode
  */
-public class JobDataImporter {
+public class JobDataImporter {                                  //serves to import data from the CSV file (under resources)
 
     private static final String DATA_FILE = "job_data.csv";
     private static boolean isDataLoaded = false;
